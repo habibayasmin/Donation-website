@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*  Header Style */
+.header{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/donation13.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.header-title{
+    font-weight: 700px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+}
+.header-description{
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.btn-primary{
+    background: rgba(255, 0, 0, 0.733);
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+/* main section style */
+.main-content{
+    text-align: center;
+}
+.content-title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+.content-description{
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+.amount-main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.amount-container{
+    gap: 20;
+}
+.amount{
+    padding: 30px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #707070;
+    background: #FAFAFA;
+}
+.amount-main .target{
+    background: #FFEEEE;
+    color: #FF5959;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 30px 20px;
+}
+.another-option{
+    margin-bottom: 10px;
+}
+.option{
+    color: #B3B3B3;
+
+}
+hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.step-container{
+    display: flex;
+    margin: 100px 150px 100px 150px;
+    padding: 50px;
+}
+img{
+    margin: 20px;
+}
+.step1{
+    width: 400px;
+    height: 400px;
+    background: rgba(79, 157, 166, 0.1);
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.step2{
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 89, 89, 0.1);
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.step3{
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 0, 0.123);
+    padding-left: 20px;
+}
+.step-title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.step-decription{
+    font-weight: 600;
+    font-size: 15px;
+}
+.section{
+    margin-bottom: 50px;
+    display: flex;
+}
+.photo{
+    height: 300px;
+}
+.photo-2{
+    margin-left: 170px;
+    height: 300px;
+}
+.section-detail{
+    margin-left: 170px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.section-description{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 60px;
+}
+.section-2{
+    display: flex;
+    margin-bottom: 60px;
+}
+.updates{
+    text-align: center;
+}
+.update-title{
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+.upadate-description{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 400px 20px 400px;
+}
+
+/* Form Style */
+.contact{
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.247);
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 80px;
+}
+
+/* Footer Styles*/
+.footer-part{
+    text-align: center;
+    background-color:  #0B0D17;
+}
+.footer-title{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.footer-description{
+    color: #D9DBE1;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
